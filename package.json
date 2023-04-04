@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "meu primeiro aplicativo web com nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizafsc/node-js.git"
+  },
+  "author": "luizafsc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizafsc/node-js/issues"
+  },
+  "homepage": "https://github.com/luizafsc/node-js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
