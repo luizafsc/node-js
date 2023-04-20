@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-fs.unlink('mynewfile2.txt', function (err) {
+fs.open('mynewfile2.txt', 'w', function (err, file) {
   if (err) throw err;
-  console.log('File deleted!');
+  console.log('Saved!');
 });
